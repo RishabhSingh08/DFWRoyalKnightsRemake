@@ -1,1 +1,1 @@
-<h1 class="bg-red-200">Hello</h1>
+<h1>Hello</h1>
