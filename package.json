@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "apply": "git add . && git commit -m \"$npm_config_message\" && git push",
+    "apply": "git add . && git commit -m \"commit\" && git push",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview"
