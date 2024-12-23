@@ -48,26 +48,23 @@
 }
 
 </style>
-<main>
-    <div class="poppins bg-center bg-cover grid "
-        style={`background-image: url(${BackgroundImage});`}>
-
+<main class="">
+    <!-- Hero Section -->
+    <div class="poppins grid"style={`background-image: url(${BackgroundImage});`}>
         <div class="2xl:my-32 mt-32 mb-16 mx-32 2xl:mx-54">
-            <!-- Hero Text -->
+            <!-- Info Text -->
             <div class="mb-16 grid 2xl:grid-cols-5 grid-cols-7 items-center justify-center ">
-                <div class="border-r 2xl:col-span-3 col-span-4 ">
-                    <img src={LogoExtended} alt="Logo" class="my-8 pr-36">
-                    <p class="text-2xl 2xl:w-[40rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
+                <div class="border-r 2xl:col-span-3 col-span-4">
+                    <img src={LogoExtended} alt="Logo" class="my-8">
+                        <p class="text-2xl 2xl:w-[40rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
                     <button class="border px-8 text-xl py-3 my-8 rounded-md border-[#ff9900] transition hover:text-[#ff9900] hover:bg-white hover:border-white">
                         <a href="https://discord.gg/h5ZRQVA4jQ" target="_blank">Join Us</a>
                     </button>
                 </div>
-                <div class="text-center w-full 2xl:col-span-2 col-span-3 ">
-                    <p class="2xl:text-5xl mb-5 text-4xl">
-                        Cultivating
-                    </p>
-                    <span class="poppins-bold 2xl:text-6xl text-5xl">{currentWord}</span>
-                    <p class=" mt-5 text-3xl 2xl:text-4xl">One Move at a Time</p>
+                <div class="text-right w-full 2xl:col-span-2 col-span-3 space-y-5">
+                    <p class="2xl:text-5xl text-4xl">Cultivating</p>
+                    <p class="poppins-bold 2xl:text-6xl text-5xl">{currentWord}</p>
+                    <p class="text-3xl 2xl:text-4xl">One Move at a Time</p>
                 </div>
             </div>
             <!-- Sponsors -->
@@ -86,7 +83,6 @@
                             <img src={GemLogo} alt="Gem Logo" class="w-44 h-auto">
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>
