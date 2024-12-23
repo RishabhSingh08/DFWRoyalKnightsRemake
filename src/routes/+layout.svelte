@@ -13,7 +13,13 @@
 	let { children } = $props();
 </script>
 
-<main>
+<div class="text-center text-3xl space-y-6">
+	<p>⚠️</p>
+	<p>Mobile Site Under Development</p>
+	<p>Please Visit the Site on Desktop</p>
+</div>
+
+<main class="hidden">
 	<nav class="px-32 py-4 fixed bg-black w-full z-10 border-b">
 		<div class="flex items-center justify-between">
 			<a href="/">
@@ -30,7 +36,6 @@
 	</nav>
 
 <main class="mb-24">
-	Hi
 	{@render children()}
 </main>
 
