@@ -28,11 +28,10 @@
 			<a href="/">
 				<img src={Logo} alt="Logo" class="w-12">
 			</a>
-			<ul class="flex space-x-12 text-xl hover:text-gray-500">
-				<li><a href="/events" class="">Events</a></li>
-				<li><a href="/team" class="">Our Team</a></li>
-				<li><a href="/contact" class="">Contact Us</a></li>
-				<li><a href="/donate" class="">Donate</a></li>
+			<ul class="flex space-x-12 text-xl">
+				<li><a href="/events" class="hover:text-gray-400 transition">Events</a></li>
+				<li><a href="/contact" class="hover:text-gray-400 transition">Contact Us</a></li>
+				<li><a href="/donate" class="hover:text-gray-400 transition">Donate</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -49,8 +48,8 @@
 			</div>
 			<ul class="text-center space-y-2 text-xl text-gray-300">
 				<li><a href="/events" class="hover:text-gray-500 transition">Events</a></li>
-				<li><a href="/team" class="hover:text-gray-500 transition">Our Team</a></li>
 				<li><a href="/donate" class="hover:text-gray-500 transition">Donate</a></li>
+				<li><a href='mailto:dfwroyalknightschess@gmail.com' class="hover:text-gray-500 transition">Contact Us</a></li>
 			</ul>
 			<div>
 				<div class="grid grid-rows-3">

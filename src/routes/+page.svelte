@@ -62,9 +62,9 @@
                     </button>
                 </div>
                 <div class="text-right w-full 2xl:col-span-2 col-span-3 space-y-5">
-                    <p class="2xl:text-5xl text-4xl">Cultivating</p>
-                    <p class="poppins-bold 2xl:text-6xl text-5xl">{currentWord}</p>
-                    <p class="text-3xl 2xl:text-4xl">One Move at a Time</p>
+                    <p class="text-5xl">Cultivating</p>
+                    <p class="poppins-bold text-6xl">{currentWord}</p>
+                    <p class="text-3xl">One Move at a Time</p>
                 </div>
             </div>
             <div>
@@ -101,13 +101,14 @@
                 </div>
             </div>
             <div class="">
-                <div class="grid grid-cols-3 justify-center items-center gap-16">
-                    <div class="text-center">
-                        <p class="text-xl 2xl:text-2xl poppins-light">At DFW Royal Knights, we aim to inspire the next generation of strategic thinkers and chess enthusiasts by fostering a passion for the game and creating opportunities for students to connect, learn, and grow in a supportive community.</p>
-                    </div>
-                    <div class="col-span-2">
+                <div class="grid grid-cols-7 justify-center items-center gap-8">
+                    <div class="col-span-4">
                         <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl">
                     </div>
+                    <div class="text-center col-span-3">
+                        <p class="text-2xl 2xl:text-2xl poppins-light">At DFW Royal Knights, we aim to inspire the next generation of strategic thinkers and chess enthusiasts by fostering a passion for the game and creating opportunities for students to connect, learn, and grow in a supportive community.</p>
+                    </div>
+
                 </div>
             </div>
             
