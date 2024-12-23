@@ -1,5 +1,6 @@
 <script>
     import LogoExtended from "../lib/assets/LogoExtended.png";
+    import Logo from "../lib/assets/Logo.png";
     import PickleballLogo from "../lib/assets/PickleballLogo.png";
     import SistersLogo from "../lib/assets/SistersLogo.png";
     import GemLogo from "../lib/assets/GemLogo.png";
@@ -50,18 +51,19 @@
 </style>
 
 
-<main class="">
+<main>
+
     <div class="poppins grid bg-cover bg-center"style={`background-image: url(${BackgroundImage});`}>
         <div class="2xl:my-32 mt-32 mb-16 mx-32 2xl:mx-54">
             <div class="my-16 grid 2xl:grid-cols-5 grid-cols-7 items-center justify-center ">
                 <div class="border-r 2xl:col-span-3 col-span-4">
-                    <img src={LogoExtended} alt="Logo" class="my-8">
-                        <p class="text-2xl 2xl:w-[40rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
+                    <img src={LogoExtended} alt="Logo" class="my-8 w-[30rem]">
+                        <p class="text-2xl w-[30rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
                     <button class="border px-8 text-xl py-3 my-8 rounded-md border-[#ff9900] transition hover:text-[#ff9900] hover:bg-white hover:border-white">
                         <a href="https://discord.gg/h5ZRQVA4jQ" target="_blank">Join Us</a>
                     </button>
                 </div>
-                <div class="text-right w-full 2xl:col-span-2 col-span-3 space-y-5">
+                <div class="text-right w-full 2xl:col-span-2 col-span-3 space-y-5 px-16">
                     <p class="text-5xl">Cultivating</p>
                     <p class="poppins-bold text-6xl">{currentWord}</p>
                     <p class="text-3xl">One Move at a Time</p>
@@ -89,7 +91,7 @@
 
     <div class="grid grid-cols-7">
         <div class="col-span-1"></div>
-        <div class="2xl:col-span-5 col-span-5">
+        <div class="col-span-5">
             <div class="text-center poppins my-16">
                 <div>
                     <p class="text-4xl mb-4">Mission Statement</p>
@@ -148,7 +150,9 @@
         </div>
         <div class="col-span-1"></div>
     </div>
+    
 </main>
+
                         <!-- <div class="flex justify-center gap-16 text-center text-5xl my-12">
                             <div><div>6.6k+</div><p class="mt-2 text-base">People affected</p></div>
                             <div><div>$3.4k+</div><p class="mt-2 text-base">Amount raised</p></div>

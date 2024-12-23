@@ -8,10 +8,36 @@
     import SistersLogo from "../lib/assets/SistersLogo.png";
     import GemLogo from "../lib/assets/GemLogo.png";
 	import LogoExtended from "../lib/assets/LogoExtended.png";
-
-
 	let { children } = $props();
+
 </script>
+
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+</svelte:head>
+
+<style>
+    .poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+</style>
 
 <div class="flex items-center justify-center h-screen text-center text-4xl p-16  xsm:hidden">
   <div class="space-y-16">
@@ -22,23 +48,24 @@
 </div>
 
 
-<main class="hidden xsm:block">
-	<nav class="px-32 py-4 fixed bg-black w-full z-10 border-b">
+<main class="hidden xsm:block poppins">
+    <nav class="px-32 w-full z-10 mt-6">
 		<div class="flex items-center justify-between">
 			<a href="/">
 				<img src={Logo} alt="Logo" class="w-12">
 			</a>
 			<ul class="flex space-x-12 text-xl">
 				<li><a href="/events" class="hover:text-gray-400 transition">Events</a></li>
-				<li><a href="/contact" class="hover:text-gray-400 transition">Contact Us</a></li>
-				<li><a href="/donate" class="hover:text-gray-400 transition">Donate</a></li>
+				<li><a href="/team" class="hover:text-gray-400 transition">Team</a></li>
+				<li><a href="/" class="hover:text-gray-400 transition">Donate</a></li>
+				<li><a href="/" class="hover:text-gray-400 transition">Contact Us</a></li>
 			</ul>
 		</div>
 	</nav>
 	<div class="mb-24">
 		{@render children()}
 	</div>
-	<footer class="px-40 py-8 bg-gradient-to-b from-black to-zinc-900">
+	<footer class="px-40 py-8 bg-gradient-to-b from-black to-zinc-950">
 		<div class="flex items-center justify-between">
 			<div>
 				<a href="/">
@@ -46,9 +73,10 @@
 				</a>
 				<p class="w-80 mt-6 text-base text-gray-300">DFW Royal Knights Chess Non-Profit is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499)</p>
 			</div>
-			<ul class="text-center space-y-2 text-xl text-gray-300">
+			<ul class="text-center space-y-4  text-gray-300">
 				<li><a href="/events" class="hover:text-gray-500 transition">Events</a></li>
-				<li><a href="/donate" class="hover:text-gray-500 transition">Donate</a></li>
+				<li><a href="/team" class="hover:text-gray-500 transition">Team</a></li>
+				<li><a href="/" class="hover:text-gray-500 transition">Donate</a></li>
 				<li><a href='mailto:dfwroyalknightschess@gmail.com' class="hover:text-gray-500 transition">Contact Us</a></li>
 			</ul>
 			<div>
@@ -69,9 +97,13 @@
 				</div>
 			</div>
 			<div class="space-x-6 text-xl">
+				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.tiktok.com/@dfwroyalknights "target="_blank"><i class="fa-brands fa-tiktok hover:text-gray-500 transition"></i></a>
+				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://discord.gg/h5ZRQVA4jQ" target="_blank"><i class="fa-brands fa-discord hover:text-gray-500 transition"></i></a>
+				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.instagram.com/dfwroyalknights/" target="_blank"><i class="fa-brands fa-instagram hover:text-gray-500 transition"></i></a>
+				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://x.com/DFWRoyalKnights" target="_blank"><i class="fa-brands fa-x-twitter hover:text-gray-500 transition"></i></a>
 			</div>
 	</footer>
