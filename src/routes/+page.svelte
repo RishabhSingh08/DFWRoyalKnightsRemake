@@ -49,11 +49,9 @@
 
 </style>
 <main class="">
-    <!-- Hero Section -->
-    <div class="poppins grid"style={`background-image: url(${BackgroundImage});`}>
+    <div class="poppins grid bg-cover bg-center"style={`background-image: url(${BackgroundImage});`}>
         <div class="2xl:my-32 mt-32 mb-16 mx-32 2xl:mx-54">
-            <!-- Info Text -->
-            <div class="mb-16 grid 2xl:grid-cols-5 grid-cols-7 items-center justify-center ">
+            <div class="my-16 grid 2xl:grid-cols-5 grid-cols-7 items-center justify-center ">
                 <div class="border-r 2xl:col-span-3 col-span-4">
                     <img src={LogoExtended} alt="Logo" class="my-8">
                         <p class="text-2xl 2xl:w-[40rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
@@ -67,7 +65,6 @@
                     <p class="text-3xl 2xl:text-4xl">One Move at a Time</p>
                 </div>
             </div>
-            <!-- Sponsors -->
             <div>
                 <div class="mb-8">
                     <p class="text-2xl text-center text-zinc-300">Sponsored By</p>
@@ -88,9 +85,8 @@
         </div>
     </div>
 
-    <div class="grid 2xl:grid-cols-7 grid-cols-7">
+    <div class="grid grid-cols-7">
         <div class="col-span-1"></div>
-        <!-- Content Div -->
         <div class="2xl:col-span-5 col-span-5">
             <div class="text-center poppins my-16">
                 <div>
@@ -102,18 +98,10 @@
                     </p>
                 </div>
             </div>
-
-            <!-- About Us -->
             <div class="">
                 <div class="grid grid-cols-3 justify-center items-center gap-16">
                     <div class="text-center">
                         <p class="text-xl 2xl:text-2xl poppins-light">At DFW Royal Knights, we aim to inspire the next generation of strategic thinkers and chess enthusiasts by fostering a passion for the game and creating opportunities for students to connect, learn, and grow in a supportive community.</p>
-                        <!-- <div class="flex justify-center gap-16 text-center text-5xl my-12">
-                            <div><div>6.6k+</div><p class="mt-2 text-base">People affected</p></div>
-                            <div><div>$3.4k+</div><p class="mt-2 text-base">Amount raised</p></div>
-                            <div><div>50+</div><p class="mt-2 text-base">Volunteers</p></div>
-                            <div><div>11+</div><p class="mt-2 text-base">Programs</p></div>
-                        </div> -->
                     </div>
                     <div class="col-span-2">
                         <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl">
@@ -154,9 +142,13 @@
                     </div>
                 </div>
             </div>
-            
         </div>
         <div class="col-span-1"></div>
     </div>
-    <!-- ^ End Of Content Div -->
 </main>
+                        <!-- <div class="flex justify-center gap-16 text-center text-5xl my-12">
+                            <div><div>6.6k+</div><p class="mt-2 text-base">People affected</p></div>
+                            <div><div>$3.4k+</div><p class="mt-2 text-base">Amount raised</p></div>
+                            <div><div>50+</div><p class="mt-2 text-base">Volunteers</p></div>
+                            <div><div>11+</div><p class="mt-2 text-base">Programs</p></div>
+                        </div> -->
