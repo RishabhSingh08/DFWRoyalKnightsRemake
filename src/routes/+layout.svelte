@@ -13,9 +13,9 @@
 	let { children } = $props();
 </script>
 
-<div class="flex items-center justify-center h-screen text-center text-6xl p-16 leading-[6rem] xsm:hidden">
-  <div class="space-y-32">
-    <p class="text-9xl">⚠️</p>
+<div class="flex items-center justify-center h-screen text-center text-4xl p-16  xsm:hidden">
+  <div class="space-y-16">
+    <p class="text-6xl">⚠️</p>
     <p>Site Under Development For This Resolution</p>
     <p>Please Visit the Site on Desktop</p>
   </div>
