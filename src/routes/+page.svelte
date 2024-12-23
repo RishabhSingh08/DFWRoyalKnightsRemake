@@ -6,6 +6,9 @@
     import GemLogo from "../lib/assets/GemLogo.png";
     import AboutUsImage from "../lib/assets/AboutUs.jpg";
     import BackgroundImage from "../lib/assets/backgroundImage.png";
+    import EventsImage from "../lib/assets/Events.jpg";
+    import GroupLessonsImage from "../lib/assets/GroupLessons.jpg";
+    import PrivateLessonsImage from "../lib/assets/PrivateLessons.png";
 
     let words = ["Community", "Growth", "Skill", "Potential"];
     let currentIndex = 0;
@@ -49,6 +52,7 @@
 <main>
     <div class="poppins bg-center bg-cover grid grid-cols-5"
         style={`background-image: url(${BackgroundImage});`}>
+
         <div class="col-span-1"></div>
         <div class="col-span-3 mt-32 mb-32">
             <!-- Hero Text -->
@@ -73,7 +77,7 @@
                 <div class="mb-8">
                     <p class="text-2xl text-center text-zinc-300">Sponsored By</p>
                 </div>
-                <div class="grid grid-cols-3 gap-8 text-7xl">
+                <div class="grid grid-cols-2 mx-96 text-7xl">
                     <div class="flex justify-center items-center">
                         <a href="https://propickleballessentials.jimdosite.com/" target="_blank">
                             <img src={PickleballLogo} alt="Pickleball Logo" class="w-20 h-auto">
@@ -84,9 +88,7 @@
                             <img src={GemLogo} alt="Gem Logo" class="w-44 h-auto">
                         </a>
                     </div>
-                    <div class="flex justify-center items-center">
-                        <img src={SistersLogo} alt="Sisters Logo" class="w-44 h-auto">
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -96,9 +98,21 @@
     <div class="grid grid-cols-5">
         <div class="col-span-1"></div>
         <!-- Content Div -->
+         
         <div class="col-span-3">
+                        <div class="text-center poppins mt-16 mb-32">
+                <div>
+                    <p class="text-4xl mb-4">Mission Statement</p>
+                </div>
+                <div class=" mx-32">
+                    <p class=" ">
+                        Our mission is to promote chess in underserved communities and provide a free, joyful, and educational medium for tutoring kids in the strategic game of chess while fostering a love for the game through engaging chess events.
+                    </p>
+                </div>
+            </div>
+
             <!-- About Us -->
-            <div class="my-32">
+            <div class="">
                 <div class="flex justify-center items-center gap-16">
                     <div class="text-center col-span-2">
                         <p class="text-4xl poppins-light">At DFW Royal Knights, we aim to inspire the next generation of strategic thinkers and chess enthusiasts by fostering a passion for the game and creating opportunities for students to connect, learn, and grow in a supportive community.</p>
@@ -110,20 +124,49 @@
                         </div> -->
                     </div>
                     <div>
-                        <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl w-[300rem] justify-end">
+                        <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl justify-end">
                     </div>
                 </div>
             </div>
             
-            <div class="text-center poppins grid grid-rows-2 ">
-                <div>
-                    <p class="text-4xl mb-4">Mission Statement</p>
+            <div class="border-b my-12"></div>
+            
+            <div>
+                <div class="text-center text-4xl my-12">
+                    <p class="">Our Services</p>
                 </div>
-                <div class=" mx-32">
-                    <p class=" ">
-                        Our mission is to promote chess in underserved communities and provide a free, joyful, and educational medium for tutoring kids in the strategic game of chess while fostering a love for the game through engaging chess events.
-                    </p>
+                <div class="grid grid-cols-5 items-center mx-44 mb-32 gap-16">
+                    <div class="col-span-3">
+                        <img src={GroupLessonsImage} alt="Group Lesson" class="rounded-xl">
+                    </div>
+                    <div class="col-span-2 w-auto">
+                        <p  class="text-3xl mb-2 font-semibold">Group Lessons</p>
+                        <p class="text-2xl" >Chess players of similar levels learn from a tutor through lessons, scrimmages, and staff appreciation events.</p>
+                    </div>
                 </div>
+                                <div class="grid grid-cols-5 items-center mx-44 mb-32 gap-16">
+
+                    <div class="col-span-2">
+                        <p  class="text-3xl mb-2 font-semibold">Private Lessons</p>
+                        <p class="text-2xl" >Personalized one-on-one lessons with experienced tutors to improve strategic thinking and gameplay techniques.</p>
+                    </div>
+
+                    <div class="col-span-3">
+                        <img src={PrivateLessonsImage} alt="Group Lesson" class="rounded-xl">
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-5 items-center mx-44 mb-32 gap-16">
+                    <div class="col-span-3">
+                        <img src={EventsImage} alt="Group Lesson" class="rounded-xl">
+                    </div>
+                    <div class="col-span-2 w-auto">
+                        <p  class="text-3xl mb-2 font-semibold">Events</p>
+                        <p class="text-2xl" >Tournaments, scrimmages, online sessions, and chess parties for competitive play, skill testing, and social enjoyment.
+</p>
+                    </div>
+                </div>
+
             </div>
             
         </div>
