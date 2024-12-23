@@ -48,7 +48,11 @@
 }
 
 </style>
-<main class="">
+
+<p class="text-center">⚠️</p>
+<p class="text-center">Mobile Site Under Development, Please Visit the Site on Desktop</p>
+
+<main class="hidden xsm:block">
     <div class="poppins grid bg-cover bg-center"style={`background-image: url(${BackgroundImage});`}>
         <div class="2xl:my-32 mt-32 mb-16 mx-32 2xl:mx-54">
             <div class="my-16 grid 2xl:grid-cols-5 grid-cols-7 items-center justify-center ">
