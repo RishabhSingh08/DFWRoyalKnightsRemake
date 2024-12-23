@@ -13,11 +13,14 @@
 	let { children } = $props();
 </script>
 
-<div class="text-center text-3xl space-y-6 xsm:hidden block">
-	<p>⚠️</p>
-	<p>Mobile Site Under Development</p>
-	<p>Please Visit the Site on Desktop</p>
+<div class="flex items-center justify-center h-screen text-center text-6xl p-16 leading-[6rem] xsm:hidden">
+  <div class="space-y-32">
+    <p class="text-9xl">⚠️</p>
+    <p>Site Under Development For This Resolution</p>
+    <p>Please Visit the Site on Desktop</p>
+  </div>
 </div>
+
 
 <main class="hidden xsm:block">
 	<nav class="px-32 py-4 fixed bg-black w-full z-10 border-b">
