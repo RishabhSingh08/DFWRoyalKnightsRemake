@@ -19,7 +19,7 @@
 	<p>Please Visit the Site on Desktop</p>
 </div>
 
-<main class="hidden">
+<main class="hidden xsm:block">
 	<nav class="px-32 py-4 fixed bg-black w-full z-10 border-b">
 		<div class="flex items-center justify-between">
 			<a href="/">
