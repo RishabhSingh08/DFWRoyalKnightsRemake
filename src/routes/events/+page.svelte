@@ -207,6 +207,7 @@
                             />
                         </div>
                     </div>
+                    <p class="text-center">Teaching girls from an orphanage</p>
                 </div>
             </div>
             <p class="text-center underline my-12 text-zinc-900">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
