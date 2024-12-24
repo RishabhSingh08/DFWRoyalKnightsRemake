@@ -49,7 +49,7 @@
                 <img
                     src={currentPicture}
                     alt="Events"
-                    class="w-full rounded-lg transition hover:shadow-[0_0_50px_20px_rgba(0,0,0,.75)] duration-300 hover:scale-105 scale-100 hover:shadow-zinc-700"
+                    class="w-full rounded-lg transition hover:shadow-[0_0_50px_20px_rgba(0,0,0,.76)] duration-300 hover:scale-105 scale-100 hover:shadow-zinc-700"
                 />
                 <p>We offer a diverse range of activities, including tournaments, scrimmages, online chess sessions, and enjoyable chess parties. These events offer opportunities for chess enthusiasts to test their skills in competitive settings, connect with fellow players, and enjoy relaxing and fun-filled sessions that celebrate the joy of chess.</p>
             </div>
