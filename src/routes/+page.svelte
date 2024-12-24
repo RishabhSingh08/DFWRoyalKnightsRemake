@@ -71,7 +71,7 @@
             </div>
             <div>
                 <div class="mb-8">
-                    <p class="text-2xl text-center text-zinc-300">Sponsored By</p>
+                    <p class="text-2xl text-center text-gray-100">Sponsored By</p>
                 </div>
                 <div class="grid grid-cols-2 2xl:mx-96 mx-64 text-7xl">
                     <div class="flex justify-center items-center">
@@ -105,7 +105,7 @@
             <div class="">
                 <div class="grid grid-cols-7 justify-center items-center gap-16">
                     <div class="col-span-4">
-                        <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl shadow-[0_0_40px_-10px_rgba(0,0,0,.75)] shadow-[#ff9900]">
+                        <img src={AboutUsImage} alt="Who We Are" class="rounded-3xl hover:shadow-[0_0_60px_-10px_rgba(0,0,0,.75)] hover:shadow-[#ff9900] shadow-[0_0_40px_-10px_rgba(0,0,0,.75)] shadow-[#ff9900] hover:scale-105 transition duration-300">
                     </div>
                     <div class="col-span-3">
                         <p class="text-2xl 2xl:text-2xl poppins-light">At DFW Royal Knights, we aim to inspire the next generation of strategic thinkers and chess enthusiasts by fostering a passion for the game and creating opportunities for students to connect, learn, and grow in a supportive community.</p>
@@ -121,7 +121,7 @@
                 <div class=" space-y-6">
                 <div class="grid grid-cols-5 items-center">
                     <div class="col-span-3">
-                        <img src={GroupLessonsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_-10px_rgba(0,0,0,.75)] shadow-zinc-700">
+                        <img src={GroupLessonsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_-10px_rgba(0,0,0,.75)] shadow-zinc-700 hover:shadow-[0_0_130px_5px_rgba(0,0,0,.75)] hover:shadow-zinc-700 transition hover:scale-80 duration-300">
                     </div>
                     <div class="col-span-2  w-auto">
                         <p  class="text-3xl mb-2 font-semibold">Group Lessons</p>
@@ -134,12 +134,12 @@
                         <p class="text-2xl" >Personalized one-on-one lessons with experienced tutors to improve strategic thinking and gameplay techniques.</p>
                     </div>
                     <div class="col-span-3">
-                        <img src={PrivateLessonsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_-10px_rgba(0,0,0,.75)] shadow-zinc-700">
+                        <img src={PrivateLessonsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_-10px_rgba(0,0,0,.75)] shadow-zinc-700 hover:shadow-[0_0_130px_5px_rgba(0,0,0,.75)] hover:shadow-zinc-700 transition hover:scale-80 duration-300">
                     </div>
                 </div>
                 <div class="grid grid-cols-5 items-center">
                     <div class="col-span-3">
-                        <img src={EventsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_10px_rgba(0,0,0,.75)] shadow-zinc-700">
+                        <img src={EventsImage} alt="Group Lesson" class="rounded-xl scale-75 shadow-[0_0_120px_-10px_rgba(0,0,0,.75)] shadow-zinc-700 hover:shadow-[0_0_130px_5px_rgba(0,0,0,.75)] hover:shadow-zinc-700 transition hover:scale-80 duration-300">
                     </div>
                     <div class="col-span-2 w-auto">
                         <p  class="text-3xl mb-2 font-semibold">Events</p>

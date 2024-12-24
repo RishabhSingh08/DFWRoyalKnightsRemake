@@ -7,7 +7,12 @@ export default {
       xsm: "1000px",
       // => @media (min-width: 640px) { ... }
     },
-    extend: {},
+    extend: {
+      scale: {
+        85: ".85",
+        80: ".80",
+      },
+    },
   },
 
   plugins: [],

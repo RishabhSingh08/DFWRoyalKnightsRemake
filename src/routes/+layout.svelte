@@ -19,11 +19,6 @@
 </svelte:head>
 
 <style>
-    .poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
-}
 
 .poppins {
   font-family: "Poppins", serif;
