@@ -39,19 +39,27 @@
 
 
 <main class="hidden xsm:block poppins">
-    <nav class="px-32 w-full py-6">
-		<div class="flex items-center justify-between">
-			<a href="/">
-				<img src={Logo} alt="Logo" class="w-12">
-			</a>
-			<ul class="flex space-x-12 text-xl">
-				<li><a href="/events" class="hover:text-gray-400 transition">Events</a></li>
-				<li><a href="/team" class="hover:text-gray-400 transition">Team</a></li>
-				<li><a href="/" class="hover:text-gray-400 transition">Donate</a></li>
-				<li><a href="/" class="hover:text-gray-400 transition">Contact Us</a></li>
-			</ul>
-		</div>
-	</nav>
+<nav class="px-32 w-full py-6">
+	<div class="flex items-center justify-between">
+		<a href="/">
+			<img src={Logo} alt="Logo" class="w-12">
+		</a>
+		<ul class="flex space-x-12 text-xl">
+			<li><a href="/events" class="hover:text-[#ff9900] transition">Events</a></li>
+			<li><a href="/team" class="hover:text-[#ff9900] transition">Team</a></li>
+			<li><a href="/contact" class="hover:text-[#ff9900] transition">Contact Us</a></li>
+			<li>
+				<a href="https://hcb.hackclub.com/donations/start/dfw-royal-knights-chess-non-profit-cc243493-e08e-44e1-aeb2-946ad3f7e333" target="_blank" class="hover:text-[#ff9900] transition flex items-center">
+					Donate
+					<span class="ml-2 flex items-center leading-none">
+						<i class="fa fa-external-link text-sm"></i>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
 	<div class="mb-24">
 		{@render children()}
 	</div>
@@ -66,8 +74,8 @@
 			<ul class="text-center space-y-4  text-gray-300">
 				<li><a href="/events" class="hover:text-gray-500 transition">Events</a></li>
 				<li><a href="/team" class="hover:text-gray-500 transition">Team</a></li>
-				<li><a href="/" class="hover:text-gray-500 transition">Donate</a></li>
-				<li><a href='mailto:dfwroyalknightschess@gmail.com' class="hover:text-gray-500 transition">Contact Us</a></li>
+				<li><a href='/contact' class="hover:text-gray-500 transition">Contact Us</a></li>
+				<li><a href="https://hcb.hackclub.com/donations/start/dfw-royal-knights-chess-non-profit-cc243493-e08e-44e1-aeb2-946ad3f7e333" target="_blank" class="hover:text-gray-500 transition">Donate</a></li>
 			</ul>
 			<div>
 				<div class="grid grid-rows-3">
