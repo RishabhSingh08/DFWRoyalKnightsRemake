@@ -31,11 +31,6 @@
   font-style: normal;
 }
 
-.poppins-bold {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
 </style>
 
@@ -49,7 +44,7 @@
 
 
 <main class="hidden xsm:block poppins">
-    <nav class="px-32 w-full z-10 mt-6">
+    <nav class="px-32 w-full py-6">
 		<div class="flex items-center justify-between">
 			<a href="/">
 				<img src={Logo} alt="Logo" class="w-12">
