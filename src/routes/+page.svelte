@@ -9,6 +9,7 @@
     import EventsImage from "../lib/assets/Thumbs/03.jpg";
     import GroupLessonsImage from "../lib/assets/GroupLessons.jpg";
     import PrivateLessonsImage from "../lib/assets/PrivateLessons.png";
+    import NLSSLogo from "../lib/assets/NLSS.png";
 
     let words = ["Community", "Growth", "Skill", "Potential"];
     let currentIndex = 0;
@@ -73,10 +74,16 @@
                 <div class="mb-8">
                     <p class="text-2xl text-center text-gray-100">Sponsored By</p>
                 </div>
-                <div class="grid grid-cols-2 2xl:mx-96 mx-64 text-7xl">
+                <div class="grid grid-cols-3 gap-0  text-7xl">
+
                     <div class="flex justify-center items-center">
                         <a href="https://propickleballessentials.jimdosite.com/" target="_blank">
                             <img src={PickleballLogo} alt="Pickleball Logo" class="w-20 h-auto">
+                        </a>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <a href="https://naihatinewlifesociety.org/" target="_blank">
+                            <img src={NLSSLogo} alt="NLSS Logo" class="w-16 h-auto">
                         </a>
                     </div>
                     <div class="flex justify-center items-center">
@@ -84,15 +91,13 @@
                             <img src={GemLogo} alt="Gem Logo" class="w-44 h-auto">
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
 
-
-    <div class="flex h-full">
-        <div class="flex-grow"></div>
-        <div class="flex-shrink-0 w-[1200px]">
+<div>
             <div class="text-center poppins my-16">
                 <div>
                     <p class="text-4xl mb-4">Mission Statement</p>
@@ -150,8 +155,6 @@
 
                 </div>
             </div>
-        </div>
-        <div class="flex-grow"></div>
     </div>
     
 </main>

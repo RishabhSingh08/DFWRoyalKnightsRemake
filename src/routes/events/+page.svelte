@@ -41,10 +41,8 @@
 
 </script>
 <main>
-    <div class="flex h-full">
-        <div class="flex-grow"></div>
-        <div class="flex-shrink-0 w-[1200px]">
-            <div class="space-y-12 text-center">
+<div>
+    <div class="space-y-12 text-center">
                 <p class="text-4xl">Our Events</p>
                 <img
                     src={currentPicture}
@@ -266,6 +264,4 @@
             </div>
 
         </div>
-        <div class="flex-grow"></div>
-    </div>
 </main>
