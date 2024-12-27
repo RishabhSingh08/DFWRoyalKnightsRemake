@@ -32,7 +32,7 @@
 
 
 
-<main class="hidden xsm:block poppins">
+<main class=" poppins">
 <nav class="px-32 w-full py-6">
 	<div class="flex items-center justify-between">
 		<a href="/">
