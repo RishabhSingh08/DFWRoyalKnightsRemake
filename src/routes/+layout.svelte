@@ -57,7 +57,7 @@
 
 	<div class="flex-grow"></div>
 
-		<div class="flex-shrink-0 w-[1200px]">
+		<div class="flex-shrink-0 w-[1200px] mt-24">
 			<div class="mb-24">
 				{@render children()}
 			</div>
