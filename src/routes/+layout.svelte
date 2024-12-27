@@ -29,13 +29,7 @@
 
 </style>
 
-<div class="flex items-center justify-center h-screen text-center text-4xl p-16  xsm:hidden">
-  <div class="space-y-16">
-    <p class="text-6xl">⚠️</p>
-    <p>Site Under Development For This Resolution</p>
-    <p>Please Visit the Site on Desktop</p>
-  </div>
-</div>
+
 
 
 <main class="hidden xsm:block poppins">

@@ -60,7 +60,7 @@
                     <img src={LogoExtended} alt="Logo" class="my-8 w-[30rem]">
                         <p class="text-2xl w-[30rem]">Building a community of strategic thinkers, skilled players, and passionate chess enthusiasts</p>
                     <button class="border px-8 text-xl py-3 my-8 rounded-md border-[#ff9900] transition hover:text-[#ff9900] hover:bg-white hover:border-white">
-                        <a href="https://discord.gg/h5ZRQVA4jQ" target="_blank">Join Us</a>
+                        <a href="/contact">Join Us</a>
                     </button>
                 </div>
                 <div class="text-right w-full 2xl:col-span-2 col-span-3 space-y-5 px-16">
