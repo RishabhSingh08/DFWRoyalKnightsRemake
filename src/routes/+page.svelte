@@ -89,9 +89,10 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-7">
-        <div class="col-span-1"></div>
-        <div class="col-span-5">
+
+    <div class="flex h-full">
+        <div class="flex-grow"></div>
+        <div class="flex-shrink-0 w-[1200px]">
             <div class="text-center poppins my-16">
                 <div>
                     <p class="text-4xl mb-4">Mission Statement</p>
@@ -150,7 +151,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-1"></div>
+        <div class="flex-grow"></div>
     </div>
     
 </main>

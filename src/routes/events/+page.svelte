@@ -41,9 +41,9 @@
 
 </script>
 <main>
-    <div class="grid grid-cols-5 my-16">
-        <div class="col-span-1"></div>
-        <div class="col-span-3 ">
+    <div class="flex h-full">
+        <div class="flex-grow"></div>
+        <div class="flex-shrink-0 w-[1200px]">
             <div class="space-y-12 text-center">
                 <p class="text-4xl">Our Events</p>
                 <img
@@ -266,6 +266,6 @@
             </div>
 
         </div>
-        <div class="col-span-1"></div>
+        <div class="flex-grow"></div>
     </div>
 </main>
