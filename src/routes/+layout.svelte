@@ -82,13 +82,15 @@
 						<li><a href="https://hcb.hackclub.com/donations/start/dfw-royal-knights-chess-non-profit-cc243493-e08e-44e1-aeb2-946ad3f7e333" target="_blank" class="hover:text-gray-500 transition">Donate</a></li>
 					</ul>
 					<div>
-						<div class="grid grid-rows-3">
-							<div class="flex justify-center items-center">
-								<img src={SistersLogo} alt="Sisters Logo" class="w-36 h-auto">
-							</div>
+						<div class="grid grid-rows-3 space-y-2">
 							<div class="flex justify-center items-center">
 								<a href="https://propickleballessentials.jimdosite.com/" target="_blank">
 									<img src={PickleballLogo} alt="Pickleball Logo" class="w-12 h-auto">
+								</a>
+							</div>
+							<div class="flex justify-center items-center">
+								<a href="https://naihatinewlifesociety.org/" target="_blank">
+									<img src={NLSSLogo} alt="NLSS Logo" class="w-10 h-auto">
 								</a>
 							</div>
 							<div class="flex justify-center items-center">
@@ -97,10 +99,9 @@
 								</a>
 							</div>
 							<div class="flex justify-center items-center">
-								<a href="https://naihatinewlifesociety.org/" target="_blank">
-									<img src={NLSSLogo} alt="NLSS Logo" class="w-16 h-auto">
-								</a>
+								<img src={SistersLogo} alt="Sisters Logo" class="w-36 h-auto">
 							</div>
+
 						</div>
 					</div>
 					<div class="space-x-6 text-xl">
