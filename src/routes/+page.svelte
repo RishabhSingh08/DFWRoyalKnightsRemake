@@ -74,18 +74,14 @@
                 <div class="mb-8">
                     <p class="text-2xl text-center text-gray-100">Sponsored By</p>
                 </div>
-                <div class="grid grid-cols-3 gap-0  text-7xl">
+                <div class="grid grid-cols-2 gap-0  text-7xl">
 
                     <div class="flex justify-center items-center">
                         <a href="https://propickleballessentials.jimdosite.com/" target="_blank">
                             <img src={PickleballLogo} alt="Pickleball Logo" class="w-20 h-auto">
                         </a>
                     </div>
-                    <div class="flex justify-center items-center">
-                        <a href="https://naihatinewlifesociety.org/" target="_blank">
-                            <img src={NLSSLogo} alt="NLSS Logo" class="w-16 h-auto">
-                        </a>
-                    </div>
+
                     <div class="flex justify-center items-center">
                         <a href="https://www.gemcenters.org/" target="_blank">
                             <img src={GemLogo} alt="Gem Logo" class="w-44 h-auto">

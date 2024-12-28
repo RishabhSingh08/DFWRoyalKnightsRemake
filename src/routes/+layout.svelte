@@ -8,6 +8,8 @@
     import SistersLogo from "../lib/assets/SistersLogo.png";
     import GemLogo from "../lib/assets/GemLogo.png";
 	import LogoExtended from "../lib/assets/LogoExtended.png";
+	import NLSSLogo from "../lib/assets/NLSS.png"
+
 	let { children } = $props();
 
 </script>
@@ -92,6 +94,11 @@
 							<div class="flex justify-center items-center">
 								<a href="https://www.gemcenters.org/" target="_blank">
 									<img src={GemLogo} alt="Gem Logo" class="w-36 h-auto">
+								</a>
+							</div>
+							<div class="flex justify-center items-center">
+								<a href="https://naihatinewlifesociety.org/" target="_blank">
+									<img src={NLSSLogo} alt="NLSS Logo" class="w-16 h-auto">
 								</a>
 							</div>
 						</div>
